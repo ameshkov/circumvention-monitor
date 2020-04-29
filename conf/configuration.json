@@ -1,0 +1,18 @@
+{
+    "observe": [
+        {
+            "name": "Lucky Ads",
+            "criteria": [
+                {
+                    "urlPattern": ".*",
+                    "contentPattern": ".*Denis Pushkarev.*",
+                    "contentType": "script",
+                    "thirdParty": true
+                }
+            ],
+            "pages": [
+                "https://porosenka.net/"
+            ]
+        }
+    ]
+}
