@@ -24,8 +24,16 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            "args": [
+                "-c",
+                "conf/configuration.json",
+                "-o",
+                "report/rules.txt",
+                "-r",
+                "report/report.md",
+                "-v"
+            ],
             "program": "${workspaceFolder}/src/index.js",
-            // The vscode console does not support colors used by Jest output
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
         }

@@ -1,4 +1,6 @@
 const _ = require('lodash');
+const consola = require('consola');
+const { getHostname } = require('tldts');
 
 /**
  * Enumeration of the negative results
@@ -46,6 +48,8 @@ class Report {
     addPositiveResult(name, pageUrl, url) {
         const result = this.getOrCreateResult(name);
 
+        consola.debug(`Positive: ${name} on ${pageUrl}: ${url}`);
+
         result.positive.push({
             pageUrl,
             url,
@@ -65,6 +69,8 @@ class Report {
         if (!reasons[reason]) {
             throw new TypeError(`${reason} is not a valid reason`);
         }
+
+        consola.debug(`Negative: ${name} on ${pageUrl}: ${reason}`);
 
         const result = this.getOrCreateResult(name);
         result.negative.push({
@@ -94,6 +100,29 @@ class Report {
     }
 
     /**
+     * Returns an object with positive and negative results count:
+     * {
+     *  "postitive": 5,
+     *  "negative": 1
+     * }
+     *
+     * @returns {*} count of positive and negative results
+     */
+    count() {
+        const cnt = {
+            positive: 0,
+            negative: 0,
+        };
+
+        _.forOwn(this.report, (value) => {
+            cnt.positive += value.positive.length;
+            cnt.negative += value.negative.length;
+        });
+
+        return cnt;
+    }
+
+    /**
      * Builds the report
      */
     build() {
@@ -105,6 +134,8 @@ class Report {
             reportTxt += '#### Positive matches\n\n';
             reportTxt += '| Page | URL |\n';
             reportTxt += '| --- | --- |\n';
+
+            // TODO: don't print headers if no positive or negative matches
 
             value.positive.forEach((val) => {
                 reportTxt += `| ${val.pageUrl} | ${val.url} |`;
@@ -123,6 +154,51 @@ class Report {
         });
 
         return reportTxt;
+    }
+
+    /**
+     * Build blocking rules for the positive results
+     *
+     * @returns {Array<String>} array with basic URL blocking rules
+     */
+    buildRules() {
+        const rules = [];
+
+        _.forOwn(this.report, (value, key) => {
+            // TODO: don't print headers if no positive or negative matches
+
+            rules.push(`! System: ${key}`);
+            rules.push('! ------------------------------');
+
+            const byPageUrl = {};
+            value.positive.forEach((val) => {
+                let urls = byPageUrl[val.pageUrl];
+                if (!urls) {
+                    urls = [];
+                    byPageUrl[val.pageUrl] = urls;
+                }
+                urls.push(val.url);
+            });
+
+            _.forOwn(byPageUrl, (urls, pageUrl) => {
+                const pageRules = [];
+
+                for (let i = 0; i < urls.length; i += 1) {
+                    // TODO: Make modifiers configurable for this system
+                    const rule = `||${getHostname(urls[i])}^$third-party`;
+                    if (rules.indexOf(rule) === -1) {
+                        pageRules.push(rule);
+                    }
+                }
+
+                if (pageRules.length > 0) {
+                    rules.push(`! Found on: ${pageUrl}`);
+                    pageRules.forEach((r) => rules.push(r));
+                }
+            });
+        });
+
+        return rules;
     }
 }
 

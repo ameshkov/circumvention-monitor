@@ -27,4 +27,19 @@ describe('Report', () => {
 
         expect(reportTxt).toBe(expected);
     });
+
+    it('check building rules', () => {
+        const report = new Report();
+        report.addPositiveResult('test', 'https://example.org', 'https://example.com/script.js');
+        report.addNegativeResult('test', 'https://example.org', reasons.WebsiteDown);
+
+        const rules = report.buildRules();
+
+        expect(rules).toStrictEqual([
+            '! System: test',
+            '! ------------------------------',
+            '! Found on: https://example.org',
+            '||example.com^$third-party',
+        ]);
+    });
 });

@@ -4,6 +4,10 @@
   "repository": "git@github.com:ameshkov/circumvention-monitor.git",
   "author": "Andrey Meshkov",
   "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "circumvention-monitor": "src/index.js"
+  },
   "scripts": {
     "lint": "eslint .",
     "test": "jest --runInBand ."
@@ -11,7 +15,9 @@
   "dependencies": {
     "consola": "^2.11.3",
     "lodash": "^4.17.15",
-    "tldts": "^5.6.24"
+    "puppeteer": "^3.0.2",
+    "tldts": "^5.6.24",
+    "yargs": "^15.3.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

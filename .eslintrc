@@ -10,7 +10,8 @@
             "error",
             4
         ],
-        "import/no-extraneous-dependencies": 0
+        "import/no-extraneous-dependencies": 0,
+        "guard-for-in": "off"
     },
     "parser": "babel-eslint"
 }
