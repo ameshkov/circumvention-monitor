@@ -13,6 +13,20 @@
                 "https://porosenka.net/",
                 "https://ovgorskiy.ru/"
             ]
+        },
+        {
+            "name": "Oblivki.biz",
+            "criteria": [
+                {
+                    "urlPattern": "*",
+                    "contentPattern": "*totalTeasers*$teaserElement*",
+                    "contentType": "script",
+                    "thirdParty": true
+                }
+            ],
+            "pages": [
+                "https://progoroduhta.ru/"
+            ]
         }
     ]
 }
