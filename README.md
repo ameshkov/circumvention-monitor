@@ -4,9 +4,17 @@ There's a typical issue with ad networks that often switch to using random new d
 This crawler is supposed to automate this process.
 
 - [Circumvention monitor](#circumvention-monitor)
+  - [Reports](#reports)
   - [How to configure it](#how-to-configure-it)
   - [How to run it](#how-to-run-it)
   - [TODO](#todo)
+
+## Reports
+
+Every day the circumvention monitor runs automatically and generates two files:
+
+* [report/report.md](report/report.md) - human-readable report.
+* [report/rules.txt](report/rules.txt) - blocking rules for the domains discovered by the crawler.
 
 ## How to configure it
 
@@ -47,11 +55,6 @@ In order to add a new ad system to monitor, add a new JS object to the [configur
 
 * `yarn istall` - install dependencies
 * `yarn monitor` - run the crawler with default arguments
-
-Build output:
-
-* [report/report.md](report/report.md) - human-readable report.
-* [report/rules.txt](report/rules.txt) - blocking rules for the domains discovered by the crawler.
 
 ## TODO
 

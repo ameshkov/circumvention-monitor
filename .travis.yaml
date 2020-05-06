@@ -13,6 +13,6 @@ deploy:
   skip_cleanup: true
   keep_history: true
   github_token: $GITHUB_TOKEN
-  target_branch: travis
+  target_branch: master
   on:
-    branch: travis
+    branch: master
