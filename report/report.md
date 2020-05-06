@@ -6,9 +6,4 @@
 
 | Page | URL |
 | --- | --- |
-
-#### Negative matches
-
-| Page | Reason |
-| --- | --- |
-| https://porosenka.net/ | NotFound |
+| https://porosenka.net/ | https://wpnjrm.com/mn9l17912/ilvpm003y/oln/786/vqu768kypc01r |

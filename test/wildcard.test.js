@@ -9,6 +9,7 @@ describe('Wildcard', () => {
         w = new Wildcard('t*est');
         expect(w.test('test')).toBe(true);
         expect(w.test('t123est')).toBe(true);
+        expect(w.test('t1\n23est')).toBe(true);
 
         w = new Wildcard('/t.*est/');
         expect(w.test('test')).toBe(true);

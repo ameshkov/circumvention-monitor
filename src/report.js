@@ -131,26 +131,29 @@ class Report {
         _.forOwn(this.report, (value, key) => {
             reportTxt += `### ${key}`;
             reportTxt += '\n\n';
-            reportTxt += '#### Positive matches\n\n';
-            reportTxt += '| Page | URL |\n';
-            reportTxt += '| --- | --- |\n';
 
-            // TODO: don't print headers if no positive or negative matches
+            if (value.positive.length > 0) {
+                reportTxt += '#### Positive matches\n\n';
+                reportTxt += '| Page | URL |\n';
+                reportTxt += '| --- | --- |\n';
 
-            value.positive.forEach((val) => {
-                reportTxt += `| ${val.pageUrl} | ${val.url} |`;
+                value.positive.forEach((val) => {
+                    reportTxt += `| ${val.pageUrl} | ${val.url} |`;
+                    reportTxt += '\n';
+                });
+            }
+
+            if (value.negative.length > 0) {
                 reportTxt += '\n';
-            });
+                reportTxt += '#### Negative matches\n\n';
+                reportTxt += '| Page | Reason |\n';
+                reportTxt += '| --- | --- |\n';
 
-            reportTxt += '\n';
-            reportTxt += '#### Negative matches\n\n';
-            reportTxt += '| Page | Reason |\n';
-            reportTxt += '| --- | --- |\n';
-
-            value.negative.forEach((val) => {
-                reportTxt += `| ${val.pageUrl} | ${val.reason} |`;
-                reportTxt += '\n';
-            });
+                value.negative.forEach((val) => {
+                    reportTxt += `| ${val.pageUrl} | ${val.reason} |`;
+                    reportTxt += '\n';
+                });
+            }
         });
 
         return reportTxt;
@@ -165,7 +168,9 @@ class Report {
         const rules = [];
 
         _.forOwn(this.report, (value, key) => {
-            // TODO: don't print headers if no positive or negative matches
+            if (_.isEmpty(value.positive)) {
+                return;
+            }
 
             rules.push(`! System: ${key}`);
             rules.push('! ------------------------------');

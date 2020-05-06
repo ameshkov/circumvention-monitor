@@ -10,7 +10,8 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --runInBand ."
+    "test": "jest --runInBand .",
+    "monitor": "node src/index.js -c conf/configuration.json -o report/rules.txt -r report/report.md -v"
   },
   "dependencies": {
     "consola": "^2.11.3",
