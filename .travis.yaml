@@ -1,0 +1,17 @@
+language: node_js
+os: linux
+
+install:
+  - yarn install
+
+script:
+  - yarn monitor
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
+  target_branch: travis
+  on:
+    branch: travis
