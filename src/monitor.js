@@ -31,11 +31,12 @@ async function monitor(configuration) {
 
         const matchers = createMatchers(system);
 
+        let systemMatchesCount = 0;
         const browser = await puppeteer.launch();
 
         for (const pageUrl of system.pages) {
             const page = await browser.newPage();
-            let foundMatches = false;
+            let pageMatchesCount = 0;
 
             page.on('response', async (res) => {
                 try {
@@ -54,7 +55,7 @@ async function monitor(configuration) {
                         if (m.test(url, pageUrl, resourceType, content)) {
                             // Register positive result and immediatey exit
                             report.addPositiveResult(system.name, pageUrl, url);
-                            foundMatches = true;
+                            pageMatchesCount += 1;
                             return;
                         }
                     }
@@ -66,7 +67,8 @@ async function monitor(configuration) {
             try {
                 await page.goto(pageUrl, { waitUntil: 'networkidle0' });
 
-                if (!foundMatches) {
+                systemMatchesCount += pageMatchesCount;
+                if (pageMatchesCount === 0) {
                     // No matching criteria found, adding negative result
                     report.addNegativeResult(system.name, pageUrl, reasons.NotFound);
                 }
@@ -80,7 +82,7 @@ async function monitor(configuration) {
 
         await browser.close();
 
-        consola.info(`Finished evaluating ${system.name}`);
+        consola.info(`Finished evaluating ${system.name}. Matches: ${systemMatchesCount}`);
     }
 
     return report;

@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest --runInBand .",
-    "monitor": "node src/index.js -c conf/configuration.json -o report/rules.txt -r report/report.md -v"
+    "monitor": "node src/index.js -c conf/configuration.json -o report/rules.txt -r report/report.md"
   },
   "dependencies": {
     "consola": "^2.11.3",
