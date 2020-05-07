@@ -156,6 +156,8 @@ class Report {
                     reportTxt += '\n';
                 });
             }
+
+            reportTxt += '\n';
         });
 
         return reportTxt;

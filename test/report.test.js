@@ -23,6 +23,7 @@ describe('Report', () => {
 | Page | Reason |
 | --- | --- |
 | https://example.org | WebsiteDown |
+
 `;
 
         expect(reportTxt).toBe(expected);
