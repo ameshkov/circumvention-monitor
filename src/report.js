@@ -198,7 +198,7 @@ class Report {
 
                 if (pageRules.length > 0) {
                     rules.push(`! Found on: ${pageUrl}`);
-                    pageRules.forEach((r) => rules.push(r));
+                    _.uniq(pageRules).forEach((r) => rules.push(r));
                 }
             });
         });

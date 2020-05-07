@@ -17,6 +17,23 @@ function createMatchers(system) {
 }
 
 /**
+ * Gets response body in a safe manner.
+ * If it's not possible to get it, returns "null"
+ *
+ * @param {String} url - resource URL
+ * @param {Response} response - puppeteer response
+ * @returns {String} response text or null
+ */
+async function getResponseText(url, res) {
+    try {
+        return await res.text();
+    } catch (ex) {
+        consola.warn(`${url} cannot get content: ${ex}`);
+        return null;
+    }
+}
+
+/**
  * Monitors ad systems specified in the configuration.
  * See conf/configuration.json for the configuration example.
  *
@@ -47,7 +64,7 @@ async function monitor(configuration) {
                     if (resourceType === 'document'
                         || resourceType === 'stylesheet'
                         || resourceType === 'script') {
-                        content = await res.text();
+                        content = await getResponseText(url, res);
                     }
                     consola.debug(`${url} ${resourceType} content found: ${content != null}`);
 
