@@ -16,7 +16,7 @@ after_success:
     changes=`git diff report/rules.txt | jq -aRs .`
     username="circumvention-monitor"
     payload="payload={\"username\": \"${username}\", \"text\": \"Circumvention report changes: ${changes}\"}"
-    curl -X POST --data-urlencode ${payload} ${SLACK_HOOK_URL}
+    curl -X POST --data-urlencode "${payload}" ${SLACK_HOOK_URL}
 
 
 deploy:
