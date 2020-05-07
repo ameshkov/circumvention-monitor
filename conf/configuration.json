@@ -27,6 +27,18 @@
             "pages": [
                 "https://progoroduhta.ru/"
             ]
+        },
+        {
+            "name": "PopAds.net",
+            "criteria": [
+                {
+                    "urlPattern": "https://*.site/*",
+                    "thirdParty": true
+                }
+            ],
+            "pages": [
+                "https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp"
+            ]
         }
     ]
 }
