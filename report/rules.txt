@@ -1,10 +1,18 @@
+! ------------------------------
 ! System: Lucky Ads
 ! ------------------------------
 ! Found on: https://porosenka.net/
 ||wpnjrm.com^$third-party
 ! Found on: https://ovgorskiy.ru/
 ||zusbzr.com^$third-party
+! ------------------------------
 ! System: Oblivki.biz
 ! ------------------------------
 ! Found on: https://progoroduhta.ru/
 ||cosdkaa.pro^$third-party
+! ------------------------------
+! System: PopAds.net
+! ------------------------------
+! Found on: https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp
+||originedreting.site^$third-party
+||distrikerkvazar.site^$third-party
