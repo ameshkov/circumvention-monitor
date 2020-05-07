@@ -1,6 +1,7 @@
 const _ = require('lodash');
 const consola = require('consola');
 const { getHostname } = require('tldts');
+const utils = require('./utils');
 
 /**
  * Enumeration of the negative results
@@ -130,9 +131,10 @@ class Report {
 
         _.forOwn(this.report, (value, key) => {
             reportTxt += `### ${key}`;
-            reportTxt += '\n\n';
+            reportTxt += '\n';
 
             if (value.positive.length > 0) {
+                reportTxt += '\n';
                 reportTxt += '#### Positive matches\n\n';
                 reportTxt += '| Page | URL |\n';
                 reportTxt += '| --- | --- |\n';
@@ -172,6 +174,7 @@ class Report {
                 return;
             }
 
+            rules.push('! ------------------------------');
             rules.push(`! System: ${key}`);
             rules.push('! ------------------------------');
 
@@ -189,8 +192,14 @@ class Report {
                 const pageRules = [];
 
                 for (let i = 0; i < urls.length; i += 1) {
+                    const url = urls[i];
+                    const thirdParty = utils.isThirdParty(url, pageUrl);
                     // TODO: Make modifiers configurable for this system
-                    const rule = `||${getHostname(urls[i])}^$third-party`;
+                    let rule = `||${getHostname(urls[i])}^`;
+                    if (thirdParty) {
+                        rule += '$third-party';
+                    }
+
                     if (rules.indexOf(rule) === -1) {
                         pageRules.push(rule);
                     }

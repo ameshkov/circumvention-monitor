@@ -36,6 +36,7 @@ describe('Report', () => {
         const rules = report.buildRules();
 
         expect(rules).toStrictEqual([
+            '! ------------------------------',
             '! System: test',
             '! ------------------------------',
             '! Found on: https://example.org',
