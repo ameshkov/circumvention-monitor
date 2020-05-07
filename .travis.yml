@@ -13,11 +13,10 @@ script:
 after_success:
   - |-
     # Send changes to Slack
-    changes=`git diff report/rules.txt | jq -aRs .`
+    git diff report/rules.txt | jq -aRs . | read changes
     username="circumvention-monitor"
     payload="payload={\"username\": \"${username}\", \"text\": \"Circumvention report changes: ${changes}\"}"
     curl -X POST --data-urlencode "${payload}" ${SLACK_HOOK_URL}
-
 
 deploy:
   provider: pages
