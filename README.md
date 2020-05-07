@@ -1,4 +1,5 @@
-# Circumvention monitor
+# Circumvention monitor 
+[![Build Status](https://travis-ci.com/ameshkov/circumvention-monitor.svg?branch=master)](https://travis-ci.com/ameshkov/circumvention-monitor)
 
 There's a typical issue with ad networks that often switch to using random new domains, and it's hard to keep an eye on them.
 This crawler is supposed to automate this process.
