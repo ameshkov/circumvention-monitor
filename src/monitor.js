@@ -59,12 +59,15 @@ async function monitor(configuration) {
                 try {
                     const request = await res.request();
                     const url = await res.url();
+                    const status = res.status();
                     const resourceType = await request.resourceType();
                     let content = null;
                     if (resourceType === 'document'
                         || resourceType === 'stylesheet'
                         || resourceType === 'script') {
-                        content = await getResponseText(url, res);
+                        if (status === 200) {
+                            content = await getResponseText(url, res);
+                        }
                     }
                     consola.debug(`${url} ${resourceType} content found: ${content != null}`);
 
@@ -82,6 +85,7 @@ async function monitor(configuration) {
             });
 
             try {
+                consola.info(`Checking ${pageUrl}`);
                 await page.goto(pageUrl, { waitUntil: 'networkidle0' });
 
                 systemMatchesCount += pageMatchesCount;
