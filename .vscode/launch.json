@@ -32,7 +32,7 @@
                 "-r",
                 "report_dev/report.md",
                 "-s",
-                "AdMaven",
+                "Lucky Ads",
                 "-v"
             ],
             "program": "${workspaceFolder}/src/index.js",
