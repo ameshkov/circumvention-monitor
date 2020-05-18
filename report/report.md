@@ -23,10 +23,7 @@
 
 | Page | URL |
 | --- | --- |
-| https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp | https://originedreting.site/MFZTNFRRNDBZa1FrMRIhQjpuEWZ2c2FyMAM9MVg/WDInXiIAIjUaN1w5JlAyQjk9QHpeMycRZnZlMl8ZADQXZR58EDx/F0hiImESdRIEfBFyDiR2GXsDMHADWCZ2BhZSAGpyH2gyJGMVcg8YdTdaDxFAOGEUCWUCAxsAdRJlExl1OHsDAmUzcwBjZxdJMgRhBXIbHQQFdA5iVztiLgl8F2QQAXABUx4JYRF+FQJXJ2QxBW0WWR8BbDp6MDFlBnoUP0QmZBBjcgADFGFnBWo3HwVkcwcBfjlyOit5AV4AIWMzchIJUw5TAAFbLmcXP3AQSRA1dgFyBjBseXoMEQVlRBRiWwZnHh5XFgEhNng4WBwRXThdFD9MDXEvO2YHYQwyfhJ1BgtDAkETBQARcT8JYhd2MQN5EVMGC3YzQwECXwZnFwZ5DGImMlYFcjUScmFEFBZfE2c8EWIXXAMKfzx2MzBYbUcXY30caBEFdgFhZh59BXoPF2InVwA/XAdoOBVsDGEuClFldjcXYjgGFCQBA3Q/GnMDcQA1Ej5DOT1EaWllIndgdGJnBj8DGQdF |
-| https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp | https://originedreting.site/T3NZOFkuETpVZi5OOx4sPR9kHWsJVmt+PXwYO1QyJxctUi9/Bz8WOiMcLFw/PRw3THchFi0dawlCO1UpfCAOVxcNITJODx0cHX1qHRcBfjULFR9yEA4yCFUbDUYBdWoOFhJAKgs8C0wDGBhtWxwMGxR5IwI8DAkpHTkISxgLJilOHTgyE2s3Jz4dT20ZFx8NEAcUOlUYGT4beh0CKR1qPhw4G1MdGzIQVw84Ph98Cg40GF8tHBYgQDsdNj1LDglGGnxqJxEKCTJ+ER9QPA0bbVYRNykJagEkIA9ULiAVaA0RG0MPDRo3Rzh/IDgXGk8+LDobDRUYN3R+YRglNX0LB0oJYB8/FRBfEC4xIUwqGDBoaAsXGB56LgogO34xKjcLcSgOIh98DCEHOHo+dyQVaQADNAhpKA4bLn4eJgsJYBo3Izx9CyohHHZsFx8pfQt9CwBgMSQkFU8qLDJocm4DNS1iCAgXA28cODA9fhQGMBx+YBpCYXIfF0MUbzUoJjx+EywmMXJ8fTUMCWgbIRpLEAwULX4/GQc7HjM8HDdIZAtKLX0oOwMoD2l2JiN+ |
-| https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp | https://distrikerkvazar.site/popunder.gif |
-| https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp | https://originedreting.site/multi?tid=723458&red=1&cs=WHc0NzBpQQRUVj4VVwEHbxEMAQBo&abt=0&v=1.0.40.5&sm=76&k=watch%20upload&sts=2&prn=0&emb=0&fs=1&ref=https%3A%2F%2Fwww.flashx.tv%2Fd101064ee701778bcc50298f0f394326.jsp&jst=0&enr=0&lcua=mozilla%2F5.0%20(x11%3B%20linux%20x86_64)%20applewebkit%2F537.36%20(khtml%2C%20like%20gecko)%20headlesschrome%2F81.0.4044.0%20safari%2F537.36&tzd=0&uloc=&if=0&_3IAx=1588925954380&crc=1 |
+| https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp | https://leavilysover.site/popunder.gif |
 
 ### AdMaven
 
@@ -34,10 +31,28 @@
 
 | Page | URL |
 | --- | --- |
+| https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://leavilysover.site/popunder.gif |
+| https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://shermore.info/?tag_id=714893&sw_url=https%3A%2F%2Fwww.downloadpirate.com%2Fsw_wwwdownloadpiratecom.js |
 | https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://d3pvcolmug0tz6.cloudfront.net/?ocvpd=675718 |
-| https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://d3kblkhdtjv0tf.cloudfront.net/PcGFnbG1PFQ4IUEZWUltcSA%3D%3D |
+| https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://trothko.com/MFFFRzBLczYwb0UjKWUKEjkxM0BDa2poR0cmayNfRz8pKFFUISw1UUQ0ayRfXX42MB5aImdrEkM8I2UKAX1nM1FXDiwjEgpzcnYECGh2ZRwSIjAlb1k1d2UKEjMgJgJVaHRxHQRmJnYdBDR2Jh1RYCMjHQJjdnIGCWghJQcDMmc6 |
+| https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://dkyp75kj7ldlr.cloudfront.net/0SWlvRUF2HQYhfH9eWnJwcQ%3D%3D |
+| https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://apparentsav.club/dmJWbEoXADUBdRdfNEo/BA5rSXgwR2QqLh0bJlt/HQhhAC4aEHgPJhkXMgo4GQwiQiQTFnNeDAQ4Dj4kEjU9Kw0BCQI6IjMGF1wiEzQTNhIiNG8oAh4zNy4yICgSFBMRID8PPTgbJTweMycUKT0wKABdBzAgFAMLJSduLQ0RMB87Dzs0FxQuIzcAJRkwJAclDQ5SNS4bHTQHBykANxAcEiMkIjoSNFsTOw80Khw6CBQ0BAsFMRohCB8gNBApHEchGSkEEjYQKhwkMzE6CDcRByQtNzUSLj0SMxM1IickJj8dGjASOAwSJwIUfjQnBAcGIyQlAR8gTwAqCCcVMC0mNAAAPgc1JDElAS43HCQdJ1IELiIzJBctKSMkMSkSMRU5PR4wAS80eiQqADo6IjAAXRghDjI9HUc3Hi4iOysQFHs1MC9VGyRTFA4dGiwFKSEeMxcUECQzAC4fMBUALg5HJBEuDyQwAFw9NTNnLh0iNAc0CQEnADofMDsDLWwcETkCOksKNSUpJTUULiBO |
+| https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/ | https://leavilysover.site/popunder.gif |
+| https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/ | https://leavilysover.site/popunder.gif |
 | https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/ | https://d3al52d8cojds7.cloudfront.net/?tid=800153 |
-| https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/ | https://d3kblkhdtjv0tf.cloudfront.net/KYnBJaVpdBCANZ1pAeVhvUQ%3D%3D |
+| https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/ | https://ransparleddorob.info/UkJFWHIpYDYvLScwKXpIcCoxLAIheGp3BSU1ay8TJiEtLAQhJzcxFyFsMzEWNy1qKwV8KDZ6XnAxKD5QaHNpegYzJRoxFnB4Z2BCYnNxaFB%2BYDYtEA0rIWpQaGAjYEc3IyE%2BSn93JmhAf3Ygb0V%2FIHZrQX9ycDxHYCFxaENgJnF6Dw |
+| https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/ | https://apparentsav.club/aDRBQm4JViIvUQkJI2QbGlh8Z1wuEXMECltVLXdcDAwiLQQMR3ZsDQRbNCYIGlsvNkAGUTVnXC5dDgQvW1Y7AAw4BSoIKlhDdBdfIX0CBS8vYyYPCydfEAM2A1w1JChRThQQHTh9BiY2IGwIBzsGdigGXgRxECg/I2w5GDslYioLKjoAcBU/H3oCGjQ/d3ALKDJ2BCA/Lld2AQkAcBkWXzx3cBghJ2IHCDw+WDUVCSp/FBYWCnApFyUuUwsALyoFKABeDH0CFSs7bAkLCjFTIgY5Pm0tFl4HdwIBCThjFnohMnZ0CS8PUzkQFlFXGREKO3AXNjwidmwICgxTcCgvLXEFBgA9chk6Bjx7BA8tMHZwKwotWwIBKhBRAwQ7DG0mISc+YjJ1OS1tFwEDKlICLigLZAcLDTkFMnY8OXYlGjY9cgoTCSJSJiYsKnUpKS9YcQAKOSF8CQQoDXkUFykuZS4VLwRDCQQDJXYSFzsuVRcHICpTOTIsD0wSBioxcBkUIyJVABQ2PmV0MiwubQUVBCJgBSUnJW0QC0gCRy4sHlV/cQEHIwwOFQElcSogJloM |
+| https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/ | https://leavilysover.site/popunder.gif |
+| https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/ | https://dkyp75kj7ldlr.cloudfront.net/PYWs5WGVeH1A8WFlbCWlQUg%3D%3D |
 | https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq | https://d22sfab2t5o9bq.cloudfront.net/?dpdfd=831299 |
-| https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq | https://d3kblkhdtjv0tf.cloudfront.net/ARWVkNkF6EQ1SfH1WVQR4fA%3D%3D |
+| https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq | https://apparentsav.club/cEEzUHkRI1A9RhF8UXYMAi0OdUs2ZAEWHUJzQDYYEnNHZRZJI0J+GhwuRjQfAi5dJFceJEd1SzZ0Z2ARJxQBaAo6O1RhLDQyWx0URRlVGBUbIF8KCTkoZmg4JHgCERMiJX1jFhUYZScjMQVUKDcZKUYZEBsNUD4RBxFEZBE8c0dhOhkEQTFLOgt/OQ5AI18kCSACamg7OAhDGiohJH8UPAkPcScIEih+KSwZCF0cPR8FeikVChhgPE8qLGliISh4VBwUOiRSPgolJV9hXEIHeRRBSQZZNA0qBn4IHUN1eQovBCxRBysaBVloTT8ragkyGS4KHxEEMFY4VDIsaxgRHRtkBjIWGVt1SzIOcjNOOhVDYiEhOUcKPj0FeTk0CiVfYVxCB38qNAcDcBIRE3N1NjMJcQAeDj0wfCksBwNJYBc/O2kbHyF0RgkSNmQBFiMdC1kHSgQsaT4jFCdJI0o+EAdpMCgPWxshAHZqCEgTJGRkExItaiAyHQNdBhdEM30XGjokAD9IKS1XaRo0D18GFwg5aQQ8PgpKPBIqcAZmXxoyXD4JTRVUYgFCCQFjLzgvUQke |
+| https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq | https://dkyp75kj7ldlr.cloudfront.net/uR1JIUVl4JiE1ZH9heWNgfg%3D%3D |
+| https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq | https://leavilysover.site/popunder.gif |
+
+#### Negative matches
+
+| Page | Reason |
+| --- | --- |
+| https://www.y2mate.com/ | NotFound |
+| https://www.romnation.net/ | WebsiteDown |
 
