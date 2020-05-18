@@ -28,9 +28,11 @@
                 "-c",
                 "conf/configuration.json",
                 "-o",
-                "report/rules.txt",
+                "report_dev/rules.txt",
                 "-r",
-                "report/report.md",
+                "report_dev/report.md",
+                "-s",
+                "AdMaven",
                 "-v"
             ],
             "program": "${workspaceFolder}/src/index.js",

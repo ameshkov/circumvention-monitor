@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 const fs = require('fs').promises;
+const path = require('path');
 const consola = require('consola');
 const packageJson = require('../package.json');
 const monitor = require('./monitor');
@@ -26,6 +27,12 @@ const { argv } = require('yargs')
         alias: 'r',
         type: 'string',
         description: 'Path to the file with a report',
+        nargs: 1,
+    })
+    .option('system', {
+        alias: 's',
+        type: 'string',
+        description: 'Name of thee ad system (if you want to run it for a single system)',
         nargs: 1,
     })
     .option('verbose', {
@@ -54,7 +61,22 @@ async function main() {
         consola.info(`Starting ${packageJson.name} v${packageJson.version}`);
 
         const configStr = (await fs.readFile(argv.config)).toString();
-        const config = JSON.parse(configStr);
+        let config = JSON.parse(configStr);
+        if (argv.system) {
+            consola.info(`Running for system ${argv.system}`);
+            config = {
+                // Keep only the specified system
+                observe: config.observe.filter((s) => s.name === argv.system),
+            };
+        }
+
+        // Create output directories
+        let dir = path.dirname(argv.report);
+        await fs.mkdir(dir, { recursive: true });
+        dir = path.dirname(argv.output);
+        await fs.mkdir(dir, { recursive: true });
+
+        // Run the monitor
         const report = await monitor(config);
 
         consola.info(`Writing report to ${argv.report}`);
