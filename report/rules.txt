@@ -20,7 +20,7 @@
 ! Found on: http://pg12.ru/
 ||ublrfs.com^$third-party
 ! Found on: http://progorod58.ru/
-||gmoshk.com^$third-party
+||ckcsuk.com^$third-party
 ! Found on: http://progorodnn.ru/
 ||bergfi.com^$third-party
 ! Found on: http://fixmaster74.ru/
@@ -48,18 +48,19 @@
 ! System: PopAds.net
 ! ------------------------------
 ! Found on: https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp
-||leavilysover.site^$third-party
+||severymurden.site^$third-party
 ! ------------------------------
 ! System: AdMaven
 ! ------------------------------
 ! Found on: https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/
 ||shermore.info^$third-party
+||propeanikob.site^$third-party
 ||d3pvcolmug0tz6.cloudfront.net^$third-party
 ||trothko.com^$third-party
+||properatersch.fun^$third-party
 ||dkyp75kj7ldlr.cloudfront.net^$third-party
-||apparentsav.club^$third-party
 ! Found on: https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/
-||d3al52d8cojds7.cloudfront.net^$third-party
 ||ransparleddorob.info^$third-party
+||d3al52d8cojds7.cloudfront.net^$third-party
 ! Found on: https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq
 ||d22sfab2t5o9bq.cloudfront.net^$third-party
