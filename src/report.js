@@ -1,6 +1,6 @@
 const _ = require('lodash');
 const consola = require('consola');
-const { getHostname } = require('tldts');
+const { getHostname, getDomain } = require('tldts');
 const utils = require('./utils');
 
 /**
@@ -10,6 +10,50 @@ const reasons = {
     WebsiteDown: 'WebsiteDown',
     NotFound: 'NotFound',
 };
+
+/**
+ * Builds blocking rule for the specified rule
+ *
+ * @param {String} url - resource URL
+ * @param {String} pageUrl - page URL
+ * @param {Object} criteria - matching criteria
+ * @returns {String} blocking rule
+ */
+function buildRule(url, pageUrl, criteria) {
+    const ruleProperties = criteria.ruleProperties || {
+        scope: 'domain',
+    };
+
+    if (!ruleProperties.modifiers) {
+        ruleProperties.modifiers = [];
+        if (utils.isThirdParty(url, pageUrl)) {
+            ruleProperties.modifiers.push('third-party');
+        }
+    }
+
+    let pattern;
+
+    if (ruleProperties.scope === 'registeredDomain') {
+        pattern = `||${getDomain(url)}^`;
+    } else if (ruleProperties.scope === 'domainAndPath') {
+        const u = new URL(url);
+        pattern = `||${u.hostname}${u.pathname}`;
+    } else {
+        pattern = `||${getHostname(url)}^`;
+    }
+
+    let rule = pattern;
+    for (let i = 0; i < ruleProperties.modifiers.length; i += 1) {
+        if (i === 0) {
+            rule += '$';
+        } else {
+            rule += ',';
+        }
+        rule += ruleProperties.modifiers[i];
+    }
+
+    return rule;
+}
 
 /**
  * The purpose of this class is to accumulate our script results
@@ -25,6 +69,7 @@ class Report {
          *              {
          *                  "pageUrl": "https://example.org/",
          *                  "url": "https://adsystem.com/script.js"
+         *                  "criteria": "......matching criteria...."
          *              }
          *          ],
          *          "negative": [
@@ -45,8 +90,9 @@ class Report {
      * @param {String} name - circumvention system name
      * @param {String} pageUrl - test page url
      * @param {String} url - url that matches the circumvention system criteria
+     * @param {Object} criteria - criteria that was used to match this url
      */
-    addPositiveResult(name, pageUrl, url) {
+    addPositiveResult(name, pageUrl, url, criteria) {
         const result = this.getOrCreateResult(name);
 
         consola.debug(`Positive: ${name} on ${pageUrl}: ${url}`);
@@ -54,6 +100,7 @@ class Report {
         result.positive.push({
             pageUrl,
             url,
+            criteria,
         });
     }
 
@@ -182,25 +229,23 @@ class Report {
 
             const byPageUrl = {};
             value.positive.forEach((val) => {
-                let urls = byPageUrl[val.pageUrl];
-                if (!urls) {
-                    urls = [];
-                    byPageUrl[val.pageUrl] = urls;
+                let matches = byPageUrl[val.pageUrl];
+                if (!matches) {
+                    matches = [];
+                    byPageUrl[val.pageUrl] = matches;
                 }
-                urls.push(val.url);
+                matches.push({
+                    url: val.url,
+                    criteria: val.criteria,
+                });
             });
 
-            _.forOwn(byPageUrl, (urls, pageUrl) => {
+            _.forOwn(byPageUrl, (matches, pageUrl) => {
                 const pageRules = [];
 
-                for (let i = 0; i < urls.length; i += 1) {
-                    const url = urls[i];
-                    const thirdParty = utils.isThirdParty(url, pageUrl);
-                    // TODO: Make modifiers configurable for this system
-                    let rule = `||${getHostname(urls[i])}^`;
-                    if (thirdParty) {
-                        rule += '$third-party';
-                    }
+                for (let i = 0; i < matches.length; i += 1) {
+                    const { url, criteria } = matches[i];
+                    const rule = buildRule(url, pageUrl, criteria);
 
                     if (rules.indexOf(rule) === -1) {
                         pageRules.push(rule);

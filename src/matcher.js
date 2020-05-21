@@ -19,6 +19,8 @@ class Matcher {
      * @param {*} criteria matching criteria
      */
     constructor(criteria) {
+        this.criteria = criteria;
+
         if (criteria.urlPattern) {
             this.urlPattern = new Wildcard(criteria.urlPattern);
         } else {

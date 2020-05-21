@@ -74,7 +74,7 @@ async function monitor(configuration) {
                     for (const m of matchers) {
                         if (m.test(url, pageUrl, resourceType, content)) {
                             // Register positive result and immediatey exit
-                            report.addPositiveResult(system.name, pageUrl, url);
+                            report.addPositiveResult(system.name, pageUrl, url, m.criteria);
                             pageMatchesCount += 1;
                             return;
                         }

@@ -45,7 +45,13 @@
                     "urlPattern": "*",
                     "contentPattern": "*totalTeasers*$teaserElement*",
                     "contentType": "script",
-                    "thirdParty": true
+                    "thirdParty": true,
+                    "ruleProperties": {
+                        "scope": "domain",
+                        "modifiers": [
+                            "third-party"
+                        ]
+                    }
                 }
             ],
             "pages": [
