@@ -60,18 +60,6 @@
             ]
         },
         {
-            "name": "PopAds.net",
-            "criteria": [
-                {
-                    "urlPattern": "https://*.site/*",
-                    "thirdParty": true
-                }
-            ],
-            "pages": [
-                "https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp"
-            ]
-        },
-        {
             "name": "AdMaven",
             "criteria": [
                 {
@@ -96,6 +84,7 @@
                 }
             ],
             "pages": [
+                "https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp",
                 "https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/",
                 "https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/",
                 "https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq",
