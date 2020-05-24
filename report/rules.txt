@@ -4,11 +4,12 @@
 ! Found on: https://porosenka.net/
 ||wpnjrm.com^$third-party
 ! Found on: https://ovgorskiy.ru/
-||zusbzr.com^$third-party
+||rzjirk.com^$third-party
 ! Found on: http://prozoro.net.ua/
 ||ackhoo.com^$third-party
 ! Found on: http://brjunetka.ru/
 ||hgofcd.com^$third-party
+||icilfj.com^$third-party
 ! Found on: http://tarifec.com/
 ||mkkliq.com^$third-party
 ! Found on: http://u-news.com.ua/
@@ -34,35 +35,32 @@
 ! Found on: http://triumph-strategy.ru/
 ||frsuli.com^$third-party
 ! Found on: http://trueinform.ru/
-||ybcrwm.com^$third-party
+||umcbbt.com^$third-party
 ! Found on: http://figaro.space/
 ||aafdcq.com^$third-party
 ! Found on: http://socportal.info/
 ||sblftg.com^$third-party
 ! Found on: http://fatelines.net/
-||watieb.com^$third-party
+||fxfahn.com^$third-party
 ! ------------------------------
 ! System: Oblivki.biz
 ! ------------------------------
 ! Found on: https://progoroduhta.ru/
 ||cosdkaa.pro^$third-party
 ! ------------------------------
-! System: PopAds.net
-! ------------------------------
-! Found on: https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp
-||solutelynewt.site^$third-party
-! ------------------------------
 ! System: AdMaven
 ! ------------------------------
+! Found on: https://www.flashx.tv/d101064ee701778bcc50298f0f394326.jsp
+||properatersch.fun^$third-party
+||traintincre.fun^$third-party
 ! Found on: https://www.downloadpirate.com/adobe-premiere-pro-cc-2019-13-1-3-44-full-version-cracked-pre-activated/
-||withougheves.site^$third-party
 ||shermore.info^$third-party
 ||d3pvcolmug0tz6.cloudfront.net^$third-party
+||acceptionijes.site^$third-party
 ||trothko.com^$third-party
 ||dkyp75kj7ldlr.cloudfront.net^$third-party
-||properatersch.fun^$third-party
 ! Found on: https://www.watchtvseries.video/the-real-housewives-of-beverly-hills-10x04-episode-4/
-||ransparleddorob.info^$third-party
 ||d3al52d8cojds7.cloudfront.net^$third-party
+||ransparleddorob.info^$third-party
 ! Found on: https://moviegaga.to/movie/prodigal-son-season-1-7y1ne4m2/watch#2vgzemyzp42l4xjq
 ||d22sfab2t5o9bq.cloudfront.net^$third-party
